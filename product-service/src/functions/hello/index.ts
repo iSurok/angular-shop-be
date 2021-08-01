@@ -8,6 +8,7 @@ export default {
       http: {
         method: 'post',
         path: 'hello',
+        reqValidatorName: 'emptyValidator',
         request: {
           schema: {
             'application/json': schema
